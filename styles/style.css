@@ -1,0 +1,124 @@
+body {
+  background: #eee;
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+  background: white;
+}
+.navibar {
+  width: 1600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  height: 160px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  opacity: 0.9;
+}
+.menu {
+  font-family: "Josefin Sans";
+  font-size: 55px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: 0px 40px;
+}
+.fbox {
+  margin: 150px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.leftbox {
+  background: #39CCCC;
+  width: 670px;
+  margin: 0px 0px 100px;
+  padding: 0px;
+  flex-grow: 67;
+  margin-right: 40px;
+}
+.rightbox {
+  font-family: "Josefin Sans";
+  color: #222;
+  width: 790px;
+  flex-grow: 93;
+  margin-right: 100px;
+}
+#headercont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 670px;
+  background-color: #39CCCC;
+  height: 890px;
+}
+.headerh1 {
+  font-family: "Abril Fatface";
+  font-size: 142px;
+  line-height: 1;
+  text-transform: none;
+  opacity: 0.8;
+  padding: 0px 100px;
+  color: #000;
+}
+#smallh1 {
+  font-size: 72px;
+}
+#intro {
+  margin-top: 55px;
+  font-size: 36px;
+  line-height: 1.6;
+}
+.rightcontent {
+  padding-top: 75px;
+}
+blockquote {
+  font-family: "Abril Fatface";
+  font-size: 98px;
+  line-height: 1.4;
+  color: white;
+  padding: 0px 50px;
+}
+blockquote::before {
+  display: block;
+  font-size: 280px;
+  content: "“";
+  line-height: 0.1;
+  text-align: left;
+  vertical-align: top;
+  text-indent: -90px;
+}
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+h2 {
+  margin-top: 75px;
+  font-size: 44px;
+  margin: 0px;
+  font-weight: bold;
+}
+.note {
+  font-family: "Merriweather";
+  font-size: 26px;
+  color: #222;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 28px;
+  font-weight: bold;
+}
+.text {
+  font-size: 28px;
+  line-height: 1.6;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
